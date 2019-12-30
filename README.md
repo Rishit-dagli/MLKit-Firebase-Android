@@ -41,7 +41,7 @@ In your project-level build.gradle file, make sure to include Google's Maven rep
 
 Add the dependencies for the ML Kit Android libraries to your module (app-level) Gradle file (usually `app/build.gradle`):
 
-    ```
+    
     apply plugin: 'com.android.application'
     apply plugin: 'com.google.gms.google-services'
 
@@ -53,21 +53,21 @@ Add the dependencies for the ML Kit Android libraries to your module (app-level)
       // don't require this additional model):
       implementation 'com.google.firebase:firebase-ml-vision-face-model:19.0.0'
     }
-    ```
+    
 
 Optional but recommended: Configure your app to automatically download the ML model to the device after your app is installed from the Play Store.
 
 To do so, add the following declaration to your app's AndroidManifest.xml file:
 
-```
-<application ...>
-  ...
-  <meta-data
-      android:name="com.google.firebase.ml.vision.DEPENDENCIES"
-      android:value="face" />
-  <!-- To use multiple models: android:value="face,model2,model3" -->
-</application>
-```
+
+    <application ...>
+      ...
+      <meta-data
+          android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+          android:value="face" />
+      <!-- To use multiple models: android:value="face,model2,model3" -->
+    </application>
+
 
 If you do not enable install-time model downloads, the model will be downloaded the first time you run the detector. Requests you make before the download has completed will produce no results.
 
@@ -91,33 +91,33 @@ For example:
 
 * Java:
 
-    // High-accuracy landmark detection and face classification
-    FirebaseVisionFaceDetectorOptions highAccuracyOpts =
-            new FirebaseVisionFaceDetectorOptions.Builder()
-                    .setPerformanceMode(FirebaseVisionFaceDetectorOptions.ACCURATE)
-                    .setLandmarkMode(FirebaseVisionFaceDetectorOptions.ALL_LANDMARKS)
-                    .setClassificationMode(FirebaseVisionFaceDetectorOptions.ALL_CLASSIFICATIONS)
-                    .build();
+        // High-accuracy landmark detection and face classification
+        FirebaseVisionFaceDetectorOptions highAccuracyOpts =
+                new FirebaseVisionFaceDetectorOptions.Builder()
+                        .setPerformanceMode(FirebaseVisionFaceDetectorOptions.ACCURATE)
+                        .setLandmarkMode(FirebaseVisionFaceDetectorOptions.ALL_LANDMARKS)
+                        .setClassificationMode(FirebaseVisionFaceDetectorOptions.ALL_CLASSIFICATIONS)
+                        .build();
 
-    // Real-time contour detection of multiple faces
-    FirebaseVisionFaceDetectorOptions realTimeOpts =
-            new FirebaseVisionFaceDetectorOptions.Builder()
-                    .setContourMode(FirebaseVisionFaceDetectorOptions.ALL_CONTOURS)
-                    .build();
+        // Real-time contour detection of multiple faces
+        FirebaseVisionFaceDetectorOptions realTimeOpts =
+                new FirebaseVisionFaceDetectorOptions.Builder()
+                        .setContourMode(FirebaseVisionFaceDetectorOptions.ALL_CONTOURS)
+                        .build();
 
 * Kotlin         
 
-    // High-accuracy landmark detection and face classification
-    val highAccuracyOpts = FirebaseVisionFaceDetectorOptions.Builder()
-            .setPerformanceMode(FirebaseVisionFaceDetectorOptions.ACCURATE)
-            .setLandmarkMode(FirebaseVisionFaceDetectorOptions.ALL_LANDMARKS)
-            .setClassificationMode(FirebaseVisionFaceDetectorOptions.ALL_CLASSIFICATIONS)
-            .build()
+        // High-accuracy landmark detection and face classification
+        val highAccuracyOpts = FirebaseVisionFaceDetectorOptions.Builder()
+                .setPerformanceMode(FirebaseVisionFaceDetectorOptions.ACCURATE)
+                .setLandmarkMode(FirebaseVisionFaceDetectorOptions.ALL_LANDMARKS)
+                .setClassificationMode(FirebaseVisionFaceDetectorOptions.ALL_CLASSIFICATIONS)
+                .build()
 
-    // Real-time contour detection of multiple faces
-    val realTimeOpts = FirebaseVisionFaceDetectorOptions.Builder()
-            .setContourMode(FirebaseVisionFaceDetectorOptions.ALL_CONTOURS)
-            .build()
+        // Real-time contour detection of multiple faces
+        val realTimeOpts = FirebaseVisionFaceDetectorOptions.Builder()
+                .setContourMode(FirebaseVisionFaceDetectorOptions.ALL_CONTOURS)
+                .build()
             
 2. Run the face detector
 
@@ -501,4 +501,16 @@ If the face recognition operation succeeds, a list of FirebaseVisionFace objects
           }
       }
       
-      
+ ### Examples
+ 
+ 1. Countour detection-
+ 
+ ![](https://github.com/Rishit-dagli/MLKit-Firebase/blob/master/images/face_contours.svg)
+
+2. Face + Emotion detection -
+
+![](https://github.com/Rishit-dagli/MLKit-Firebase/blob/master/images/face%20detection%20example.jpeg)
+
+### What next!
+
+You can contribute to this project, all you need to do is submit a pull request.
