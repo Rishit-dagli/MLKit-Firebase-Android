@@ -31,7 +31,7 @@ With face detection, you can get the information you need to perform tasks like 
 
 Note: we will only be seeing these example swith Android
 
-![](https://github.com/Rishit-dagli/MLKit-Firebase/blob/master/images/Screenshot_2019-12-30%20Face%20Detection%20Firebase.png)
+![](https://github.com/Rishit-dagli/MLKit-Firebase-Android/blob/master/images/firebase%20face%20capability.JPG)
 
 ### Before you begin
 
