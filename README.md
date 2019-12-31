@@ -513,4 +513,4 @@ If the face recognition operation succeeds, a list of FirebaseVisionFace objects
 
 ### What next!
 
-You can contribute to this project, all you need to do is submit a pull request. Be sure to first read [Code of conduct](https://github.com/Rishit-dagli/MLKit-Firebase-Android/blob/master/code_of_conduct.md)
+You can contribute to this project, all you need to do is submit a pull request. Be sure to first read [Code of conduct](https://github.com/Rishit-dagli/MLKit-Firebase-Android/blob/master/code_of_conduct.md) and [License](https://github.com/Rishit-dagli/MLKit-Firebase-Android/blob/master/LICENSE) terms and conditions.
