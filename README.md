@@ -23,7 +23,7 @@ If ML Kit's APIs don't cover your use cases, you can always bring your own exist
 
 ![](https://github.com/Rishit-dagli/MLKit-Firebase/blob/master/images/ML%20kit%20capabilities.png)
 
-## Example (Face detection)
+## Example (Face detection) 
 
 With ML Kit's face detection API, you can detect faces in an image, identify key facial features, and get the contours of detected faces.
 
