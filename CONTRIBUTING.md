@@ -21,7 +21,7 @@ The following is a set of guidelines for contributing to MLKit-Firebase-Android 
 [Code of Conduct](#code-of-conduct)
 
 
-## How Can I Contribute?
+## How Can I Contribute? 
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change. 
