@@ -1,3 +1,5 @@
+# Code of Conduct
+
 All participants of MLKit-Firebase-Android are expected to abide by our Code of Conduct, both online and during in-person events that are hosted and/or associated with MLKit-Firebase-Android.
 The Pledge
 
