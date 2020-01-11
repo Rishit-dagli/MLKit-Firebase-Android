@@ -15,7 +15,7 @@ Have you read our Code of Conduct? By filing an Issue, you are expected to compl
 * [ ] Put an X between the brackets on this line if you have done all of the following:
     * Reproduced the problem in Safe Mode
     * Checked that your issue isn't already filed
-    * Checked that there is not already an Atom package that provides the described functionality
+    * Checked that there is not already an Firebase or Android package that provides the described functionality
 
 ### Description
 
