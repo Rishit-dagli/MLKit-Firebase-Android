@@ -1,4 +1,4 @@
-# MLKit-examples-Firebase
+# MLKit-Firebase-Android 
 
 ## Table of contents
 
