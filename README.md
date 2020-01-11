@@ -3,7 +3,7 @@
 ## Table of contents
 
 1. [Introduction](#Introduction)
-2. [Key capabilities](#Key capabilities)
+2. [Key capabilities](#Key-capabilities)
 
 
 ## Introduction
