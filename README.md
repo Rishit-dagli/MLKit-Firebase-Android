@@ -3,7 +3,26 @@
 ## Table of contents
 
 1. [Introduction](#Introduction)
+
+
 2. [Key capabilities](#Key-capabilities)
+    2.1 [Production-ready for common use cases](#Production-ready-for-common-use-cases)
+    2.2 [On-device or in the cloud](#On-device-or-in-the-cloud )
+    2.3 [Deploy custom models](#Deploy-custom-models)
+   
+   
+3. [Example (Face detection)](#Example-(Face-detection))
+    3.1 [Before you begin](#Before-you-begin)
+    3.2 [Input image guidelines](#Input-image-guidelines)
+        3.21 [Configure the face detector](#Configure-the-face-detector)
+        3.22 [Run the face detector](#Run-the-face-detector)
+        3.23 [Get information about detected faces](#Get-information-about-detected-faces)
+        
+        
+4. [Examples](#Examples)
+
+
+5. [What next!](#What-next!)
 
 
 ## Introduction
@@ -15,7 +34,7 @@ Watch this video for a better understanding-
 
 [![youtube.com/watch?v=ejrn_JHksws](http://img.youtube.com/vi/ejrn_JHksws/0.jpg)](http://www.youtube.com/watch?v=ejrn_JHksws "Introducing ML Kit")
 
-## Key capabilities-
+## Key capabilities
 
 1. Production-ready for common use cases 	
 
