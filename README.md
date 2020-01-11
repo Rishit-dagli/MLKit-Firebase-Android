@@ -5,18 +5,18 @@
 1. [Introduction](#Introduction)
 
 
-2. [Key capabilities](#Key-capabilities)
-    2.1 [Production-ready for common use cases](#Production-ready-for-common-use-cases)
-    2.2 [On-device or in the cloud](#On-device-or-in-the-cloud )
-    2.3 [Deploy custom models](#Deploy-custom-models)
+2. [Key capabilities](#Key-capabilities)<br>
+    2.1 [Production-ready for common use cases](#Production-ready-for-common-use-cases)<br>
+    2.2 [On-device or in the cloud](#On-device-or-in-the-cloud )<br>
+    2.3 [Deploy custom models](#Deploy-custom-models)<br>
    
    
-3. [Example (Face detection)](#Example-(Face-detection))
-    3.1 [Before you begin](#Before-you-begin)
-    3.2 [Input image guidelines](#Input-image-guidelines)
-        3.21 [Configure the face detector](#Configure-the-face-detector)
-        3.22 [Run the face detector](#Run-the-face-detector)
-        3.23 [Get information about detected faces](#Get-information-about-detected-faces)
+3. [Example (Face detection)](#Example-(Face-detection))<br>
+    3.1 [Before you begin](#Before-you-begin)<br>
+    3.2 [Input image guidelines](#Input-image-guidelines)<br>
+        3.21 [Configure the face detector](#Configure-the-face-detector)<br>
+        3.22 [Run the face detector](#Run-the-face-detector)<br>
+        3.23 [Get information about detected faces](#Get-information-about-detected-faces)<br>
         
         
 4. [Examples](#Examples)
