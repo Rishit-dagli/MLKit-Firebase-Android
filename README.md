@@ -14,9 +14,9 @@
 3. [Example (Face detection)](#Example-(Face-detection))<br>
     3.1 [Before you begin](#Before-you-begin)<br>
     3.2 [Input image guidelines](#Input-image-guidelines)<br>
-        3.21 [Configure the face detector](#Configure-the-face-detector)<br>
-        3.22 [Run the face detector](#Run-the-face-detector)<br>
-        3.23 [Get information about detected faces](#Get-information-about-detected-faces)<br>
+        <nbsp><nbsp><nbsp><nbsp>3.21 [Configure the face detector](#Configure-the-face-detector)<br>
+        <nbsp><nbsp><nbsp><nbsp>3.22 [Run the face detector](#Run-the-face-detector)<br>
+        <nbsp><nbsp><nbsp><nbsp>3.23 [Get information about detected faces](#Get-information-about-detected-faces)<br>
         
         
 4. [Examples](#Examples)
