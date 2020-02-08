@@ -8,7 +8,7 @@ The following is a set of guidelines for contributing to MLKit-Firebase-Android 
 
 [How Can I Contribute?](#how-can-i-contribute)
   * [Before Submitting A Bug Report](Before-Submitting-A-Bug-Report)
-  * [How Do I Submit A (Good) Bug Report?](How-Do-I-Submit-A-(Good)-Bug Report?)
+  * [How Do I Submit A (Good) Bug Report?](#How-Do-I-Submit-A-(Good)-Bug Report?)
   * [Reporting Bugs](#reporting-bugs)
   * [Suggesting Enhancements](Suggesting-Enhancements)
   * [Before Submitting An Enhancement Suggestion](Before-Submitting-An-Enhancement-Suggestion)
